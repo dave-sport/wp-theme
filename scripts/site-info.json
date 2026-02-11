@@ -1,0 +1,82 @@
+{
+  "readarsenal": {
+    "name": "Arsenal",
+    "full_name": "Arsenal F.C.",
+    "domain": "readarsenal.com",
+    "staging_url": "https://readarsenal-com.stackstaging.com",
+    "official_club": "https://www.arsenal.com",
+    "stadium": "Emirates Stadium"
+  },
+  "readastonvilla": {
+    "name": "Aston Villa",
+    "full_name": "Aston Villa F.C.",
+    "domain": "readastonvilla.com",
+    "staging_url": "https://readastonvilla-com.stackstaging.com",
+    "official_club": "https://www.avfc.co.uk",
+    "stadium": "Villa Park"
+  },
+  "readchelsea": {
+    "name": "Chelsea",
+    "full_name": "Chelsea F.C.",
+    "domain": "readchelsea.com",
+    "staging_url": "https://readchelsea-com.stackstaging.com",
+    "official_club": "https://www.chelseafc.com",
+    "stadium": "Stamford Bridge"
+  },
+  "readcrystalpalace": {
+    "name": "Crystal Palace",
+    "full_name": "Crystal Palace F.C.",
+    "domain": "readcrystalpalace.com",
+    "staging_url": "https://readcrystalpalace-com.stackstaging.com",
+    "official_club": "https://www.cpfc.co.uk",
+    "stadium": "Selhurst Park"
+  },
+  "readmancity": {
+    "name": "Man City",
+    "full_name": "Manchester City F.C.",
+    "domain": "readmancity.com",
+    "staging_url": "https://readmancity-com.stackstaging.com",
+    "official_club": "https://www.mancity.com",
+    "stadium": "Etihad Stadium"
+  },
+  "readrealmadrid": {
+    "name": "Real Madrid",
+    "full_name": "Real Madrid C.F.",
+    "domain": "readrealmadrid.com",
+    "staging_url": "https://readrealmadrid-com.stackstaging.com",
+    "official_club": "https://www.realmadrid.com",
+    "stadium": "Santiago Bernabéu"
+  },
+  "readsunderland": {
+    "name": "Sunderland",
+    "full_name": "Sunderland A.F.C.",
+    "domain": "readsunderland.com",
+    "staging_url": "https://readsunderland-com.stackstaging.com",
+    "official_club": "https://www.safc.com",
+    "stadium": "Stadium of Light"
+  },
+  "readtottenham": {
+    "name": "Tottenham",
+    "full_name": "Tottenham Hotspur F.C.",
+    "domain": "readtottenham.com",
+    "staging_url": "https://readtottenham-com.stackstaging.com",
+    "official_club": "https://www.tottenhamhotspur.com",
+    "stadium": "Tottenham Hotspur Stadium"
+  },
+  "readwestham": {
+    "name": "West Ham",
+    "full_name": "West Ham United F.C.",
+    "domain": "readwestham.com",
+    "staging_url": "https://readwestham-com.stackstaging.com",
+    "official_club": "https://www.whufc.com",
+    "stadium": "London Stadium"
+  },
+  "readmanutd": {
+    "name": "Man Utd",
+    "full_name": "Manchester United F.C.",
+    "domain": "readmanutd.com",
+    "staging_url": "https://domainc6eb76.stackstaging.com",
+    "official_club": "https://www.manutd.com",
+    "stadium": "Old Trafford"
+  }
+}

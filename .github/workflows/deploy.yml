@@ -1,0 +1,176 @@
+name: Deploy Theme
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+
+  deploy-astonvilla:
+    name: Deploy to Aston Villa
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy via SSH
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ssh.gb.stackcp.com
+          username: readastonvilla.com
+          key: ${{ secrets.DEPLOY_SSH_KEY }}
+          script: bash ~/deploy.sh
+
+  deploy-crystalpalace:
+    name: Deploy to Crystal Palace
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy via SSH
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ssh.gb.stackcp.com
+          username: readcrystalpalace.com
+          key: ${{ secrets.DEPLOY_SSH_KEY }}
+          script: bash ~/deploy.sh
+
+  deploy-mancity:
+    name: Deploy to Man City
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy via SSH
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ssh.gb.stackcp.com
+          username: readmancity.com
+          key: ${{ secrets.DEPLOY_SSH_KEY }}
+          script: bash ~/deploy.sh
+
+  deploy-realmadrid:
+    name: Deploy to Real Madrid
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy via SSH
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ssh.gb.stackcp.com
+          username: readrealmadrid.com
+          key: ${{ secrets.DEPLOY_SSH_KEY }}
+          script: bash ~/deploy.sh
+
+  deploy-sunderland:
+    name: Deploy to Sunderland
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy via SSH
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ssh.gb.stackcp.com
+          username: readsunderland.com
+          key: ${{ secrets.DEPLOY_SSH_KEY }}
+          script: bash ~/deploy.sh
+
+  deploy-tottenham:
+    name: Deploy to Tottenham
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy via SSH
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ssh.gb.stackcp.com
+          username: readtottenham.com
+          key: ${{ secrets.DEPLOY_SSH_KEY }}
+          script: bash ~/deploy.sh
+
+  # deploy-chelsea:
+  #   name: Deploy to Chelsea
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: Deploy via SSH
+  #       uses: appleboy/ssh-action@v1.0.3
+  #       with:
+  #         host: ssh.gb.stackcp.com
+  #         username: readchelsea.com
+  #         key: ${{ secrets.DEPLOY_SSH_KEY }}
+  #         script: bash ~/deploy.sh
+
+  # deploy-liverpoolfc:
+  #   name: Deploy to Liverpool FC
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: Deploy via SSH
+  #       uses: appleboy/ssh-action@v1.0.3
+  #       with:
+  #         host: ssh.gb.stackcp.com
+  #         username: readliverpoolfc.com
+  #         key: ${{ secrets.DEPLOY_SSH_KEY }}
+  #         script: bash ~/deploy.sh
+
+  # deploy-arsenal:
+  #   name: Deploy to Arsenal
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: Deploy via SSH
+  #       uses: appleboy/ssh-action@v1.0.3
+  #       with:
+  #         host: ssh.gb.stackcp.com
+  #         username: readarsenal.com
+  #         key: ${{ secrets.DEPLOY_SSH_KEY }}
+  #         script: bash ~/deploy.sh
+
+  # deploy-westham:
+  #   name: Deploy to West Ham
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: Deploy via SSH
+  #       uses: appleboy/ssh-action@v1.0.3
+  #       with:
+  #         host: ssh.gb.stackcp.com
+  #         username: readwestham.com
+  #         key: ${{ secrets.DEPLOY_SSH_KEY }}
+  #         script: bash ~/deploy.sh
+
+  # deploy-manutd:
+  #   name: Deploy to Man Utd
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: Deploy via SSH
+  #       uses: appleboy/ssh-action@v1.0.3
+  #       with:
+  #         host: ssh.gb.stackcp.com
+  #         username: readmanutd.com
+  #         key: ${{ secrets.DEPLOY_SSH_KEY }}
+  #         script: bash ~/deploy.sh
+
+  # deploy-norwhich:
+  #   name: Deploy to Norwich
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: Deploy via SSH
+  #       uses: appleboy/ssh-action@v1.0.3
+  #       with:
+  #         host: ssh.gb.stackcp.com
+  #         username: readnorwich.com
+  #         key: ${{ secrets.DEPLOY_SSH_KEY }}
+  #         script: bash ~/deploy.sh
+
+  # deploy-newcastle:
+  #   name: Deploy to Newcastle
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: Deploy via SSH
+  #       uses: appleboy/ssh-action@v1.0.3
+  #       with:
+  #         host: ssh.gb.stackcp.com
+  #         username: readnewcastle.com
+  #         key: ${{ secrets.DEPLOY_SSH_KEY }}
+  #         script: bash ~/deploy.sh
+
+  # deploy-everton:
+  #   name: Deploy to Everton
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: Deploy via SSH
+  #       uses: appleboy/ssh-action@v1.0.3
+  #       with:
+  #         host: ssh.gb.stackcp.com
+  #         username: readeverton.com
+  #         key: ${{ secrets.DEPLOY_SSH_KEY }}
+  #         script: bash ~/deploy.sh

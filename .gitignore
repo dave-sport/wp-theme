@@ -1,0 +1,9 @@
+node_modules/
+.DS_Store
+*.log
+
+# Planning & Documentation (keep local only)
+TODO.md
+CSS-CLEANUP-TODO.md
+WEIGHT-SAVINGS.md
+GITHUB-ACTIONS.md

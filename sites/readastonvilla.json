@@ -1,0 +1,80 @@
+{
+  "site_key": "readastonvilla",
+  "name": "Read Aston Villa",
+  "header_title": "Read Aston Villa:",
+  "domain": "readastonvilla.com",
+  "description": "The latest Aston Villa news, match previews, player ratings and more.",
+  "news_bar": [
+    "Latest Aston Villa news and updates",
+    "Match previews and analysis",
+    "Your Aston Villa fan hub"
+  ],
+  "social_media": {
+    "facebook": null,
+    "twitter": null,
+    "instagram": null,
+    "youtube": null
+  },
+  "colors": {
+    "primary": "#93bde5",
+    "primary2": "#000000",
+    "title": "#080809",
+    "body": "#54595F",
+    "smoke": "#F5F5F5",
+    "background": "#ffffff",
+    "header_bg": "#000000",
+    "header_top": "#cccccc",
+    "menu_bg": "#000000",
+    "menu_link": "#ffffff"
+  },
+  "fonts": {
+    "title": {
+      "family": "League Spartan",
+      "fallback": "sans-serif"
+    },
+    "body": {
+      "family": "Poppins",
+      "fallback": "sans-serif"
+    }
+  },
+  "homepage": {
+    "hero_count": 5,
+    "sections": [
+      {
+        "parent_category_slug": "news-2",
+        "subcategory_count": 3
+      },
+      {
+        "parent_category_slug": "feature-writers",
+        "subcategory_count": 3
+      },
+      {
+        "parent_category_slug": "transfer-news-and-rumours",
+        "subcategory_count": 3
+      }
+    ]
+  },
+  "logos": {
+    "header": "assets/logos/readastonvilla/horizontal.png",
+    "footer": "assets/logos/readastonvilla/horizontal.png",
+    "favicon": "assets/logos/readastonvilla/favicon-32.png",
+    "favicon_16": "assets/logos/readastonvilla/favicon-16.png",
+    "apple_touch_icon": "assets/logos/readastonvilla/apple-touch-icon.png",
+    "android_192": "assets/logos/readastonvilla/android-chrome-192.png",
+    "android_512": "assets/logos/readastonvilla/android-chrome-512.png"
+  },
+  "analytics": {
+    "gtag_id": null,
+    "ahrefs_key": null
+  },
+  "company": {
+    "number": "16964433",
+    "name": "SumLou Limited",
+    "address": "75 Shelton St, London, WC2H 9JQ"
+  },
+  "features": {
+    "user_registration": true,
+    "newsletter": true,
+    "contact_form": true
+  }
+}

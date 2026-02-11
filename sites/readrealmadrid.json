@@ -1,0 +1,72 @@
+{
+  "site_key": "readrealmadrid",
+  "name": "Read Real Madrid",
+  "header_title": "Read Real Madrid:",
+  "domain": "readrealmadrid.com",
+  "description": "The latest Real Madrid news, match previews, player ratings and more.",
+  "news_bar": [
+    "Latest Real Madrid news and updates",
+    "Match previews and analysis",
+    "Your Real Madrid fan hub"
+  ],
+  "social_media": {
+    "facebook": null,
+    "twitter": null,
+    "instagram": null,
+    "youtube": null
+  },
+  "colors": {
+    "primary": "#fcbf00",
+    "primary2": "#000000",
+    "title": "#080809",
+    "body": "#54595F",
+    "smoke": "#F5F5F5",
+    "background": "#ffffff",
+    "header_bg": "#000000",
+    "header_top": "#cccccc",
+    "menu_bg": "#000000",
+    "menu_link": "#ffffff"
+  },
+  "fonts": {
+    "title": {
+      "family": "League Spartan",
+      "fallback": "sans-serif"
+    },
+    "body": {
+      "family": "Poppins",
+      "fallback": "sans-serif"
+    }
+  },
+  "homepage": {
+    "hero_count": 5,
+    "sections": [
+      {
+        "parent_category_slug": "uncategorised",
+        "subcategory_count": 3
+      }
+    ]
+  },
+  "logos": {
+    "header": "assets/logos/readrealmadrid/horizontal.png",
+    "footer": "assets/logos/readrealmadrid/horizontal.png",
+    "favicon": "assets/logos/readrealmadrid/favicon-32.png",
+    "favicon_16": "assets/logos/readrealmadrid/favicon-16.png",
+    "apple_touch_icon": "assets/logos/readrealmadrid/apple-touch-icon.png",
+    "android_192": "assets/logos/readrealmadrid/android-chrome-192.png",
+    "android_512": "assets/logos/readrealmadrid/android-chrome-512.png"
+  },
+  "analytics": {
+    "gtag_id": null,
+    "ahrefs_key": null
+  },
+  "company": {
+    "number": "16964433",
+    "name": "SumLou Limited",
+    "address": "75 Shelton St, London, WC2H 9JQ"
+  },
+  "features": {
+    "user_registration": true,
+    "newsletter": true,
+    "contact_form": true
+  }
+}

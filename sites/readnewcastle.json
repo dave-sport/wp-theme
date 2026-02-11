@@ -1,0 +1,67 @@
+{
+  "site_key": "readnewcastle",
+  "name": "Read Newcastle",
+  "header_title": "Read Newcastle:",
+  "domain": "readnewcastle.com",
+  "description": "The latest Newcastle news, match previews, player ratings and more.",
+  "news_bar": [
+    "Latest Newcastle news and updates",
+    "Match previews and analysis",
+    "Your Newcastle fan hub"
+  ],
+  "social_media": {
+    "facebook": null,
+    "twitter": null,
+    "instagram": null,
+    "youtube": null
+  },
+  "colors": {
+    "primary": "#000000",
+    "primary2": "#b8b8b8",
+    "title": "#080809",
+    "body": "#54595F",
+    "smoke": "#F5F5F5",
+    "background": "#ffffff",
+    "header_bg": "#000000",
+    "header_top": "#cccccc",
+    "menu_bg": "#000000",
+    "menu_link": "#ffffff"
+  },
+  "fonts": {
+    "title": {
+      "family": "League Spartan",
+      "fallback": "sans-serif"
+    },
+    "body": {
+      "family": "Poppins",
+      "fallback": "sans-serif"
+    }
+  },
+  "homepage": {
+    "hero_count": 5,
+    "sections": []
+  },
+  "logos": {
+    "header": "assets/logos/readnewcastle/horizontal.png",
+    "footer": "assets/logos/readnewcastle/horizontal.png",
+    "favicon": "assets/logos/readnewcastle/favicon-32.png",
+    "favicon_16": "assets/logos/readnewcastle/favicon-16.png",
+    "apple_touch_icon": "assets/logos/readnewcastle/apple-touch-icon.png",
+    "android_192": "assets/logos/readnewcastle/android-chrome-192.png",
+    "android_512": "assets/logos/readnewcastle/android-chrome-512.png"
+  },
+  "analytics": {
+    "gtag_id": null,
+    "ahrefs_key": null
+  },
+  "company": {
+    "number": "16964433",
+    "name": "SumLou Limited",
+    "address": "75 Shelton St, London, WC2H 9JQ"
+  },
+  "features": {
+    "user_registration": true,
+    "newsletter": true,
+    "contact_form": true
+  }
+}
