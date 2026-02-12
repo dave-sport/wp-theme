@@ -2,7 +2,7 @@
 $site_name = moodco_config('name', get_bloginfo('name'));
 $company = moodco_config('company', []);
 $footer_logo = moodco_get_logo('footer');
-$footer_desc = function_exists('get_field') ? get_field('footer_short_description', 'option') : '';
+$footer_desc = moodco_config('about_text', '');
 $footer_h1 = function_exists('get_field') ? get_field('footer_frist_heading', 'option') : 'Quick Links';
 $footer_h2 = function_exists('get_field') ? get_field('footer_second_heading', 'option') : 'Explore';
 $footer_h3 = function_exists('get_field') ? get_field('footer_thrid_heading', 'option') : 'Contact';
