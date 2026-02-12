@@ -57,3 +57,26 @@ function moodco_time_ago($post_id = null) {
     
     return get_the_date('M d, Y', $post_id);
 }
+
+
+// ACF Theme Option
+include('inc/acf-fields.php');
+if (function_exists('acf_add_options_page')) {
+    acf_add_options_page(array(
+        'page_title' => 'Theme Options',
+        'menu_title' => 'Theme Options',
+        'menu_slug'  => 'theme-options',
+        'capability' => 'edit_posts',
+        'redirect'   => false
+    ));
+}
+
+// Shortcode to return site title
+function reads_title_shortcode() {
+    return get_bloginfo('name');
+}
+add_shortcode('site_title', 'reads_title_shortcode');
+
+// Enable shortcode in post titles
+add_filter('the_title', 'do_shortcode');
+

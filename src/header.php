@@ -14,7 +14,7 @@
 $site_name = moodco_config('name', get_bloginfo('name'));
 $header_title = moodco_config('header_title', $site_name . ':');
 $logo_url = moodco_get_logo('header');
-$news_bar_items = moodco_config('news_bar', []);
+$news_bar_items = moodco_config('news_bar', ["This is demo breaking news","This is demo breaking news 3"]);
 ?>
 
 <!-- Side Menu -->

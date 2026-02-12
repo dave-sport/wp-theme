@@ -25,9 +25,9 @@
   "homepage": {
     "hero_count": 5,
     "sections": [
-      { "parent_category_slug": "first-team", "subcategory_count": 3 },
-      { "parent_category_slug": "match-days", "subcategory_count": 3 },
-      { "parent_category_slug": "articles", "subcategory_count": 3 }
+      { "parent_category_slug": "player-profile", "subcategory_count": 3 },
+      { "parent_category_slug": "feature-writers", "subcategory_count": 3 },
+      { "parent_category_slug": "news", "subcategory_count": 3 }
     ]
   },
 

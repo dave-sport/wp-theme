@@ -95,10 +95,11 @@ $social_media = function_exists('have_rows') && have_rows('social_media', 'optio
                     </div>
                 </div>
             </div>
+            <div class="clearfix" style="height:20px;"></div>
             <div class="row justify-content-between align-items-center br-1">
                 <div class="col-lg-12">
                     <p class="copyright-text text-center">
-                        <i class="fal fa-copyright"></i> <?php bloginfo('name'); ?> - Rights Reserved <?php echo date('Y'); ?>
+                        &copy; <?php bloginfo('name'); ?> - Rights Reserved <?php echo date('Y'); ?>
                     </p>
                 </div>
             </div>
@@ -110,6 +111,7 @@ $social_media = function_exists('have_rows') && have_rows('social_media', 'optio
 <div class="scroll-top">
     <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
         <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;"></path>
+        
     </svg>
 </div>
 

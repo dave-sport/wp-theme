@@ -52,7 +52,7 @@ $posts_array = $hero_posts->posts;
                 </article>
                 <?php endforeach; ?>
             </div>
-            
+ 
             <?php if (count($posts_array) > 1): ?>
             <div class="hero-slider__dots">
                 <?php foreach ($posts_array as $index => $post): ?>
@@ -62,6 +62,9 @@ $posts_array = $hero_posts->posts;
                 <?php endforeach; ?>
             </div>
             <?php endif; ?>
+            <!-- Arrows -->
+            <button class="hero-slider__prev"><?php echo moodco_svg_icon('arrow-left'); ?></button>
+            <button class="hero-slider__next"><?php echo moodco_svg_icon('arrow-right'); ?></button>
         </div>
     </div>
 </section>

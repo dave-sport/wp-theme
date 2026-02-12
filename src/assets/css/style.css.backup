@@ -13144,6 +13144,7 @@ html.dark-theme .dark-theme > .blog-style3 {
   font-weight: 700;
   margin: 0;
   color: var(--title-color);
+  
 }
 
 .section-category__tabs {

@@ -92,7 +92,7 @@ Contact Info Area
                             </div>
                             <p class="form-messages mb-0 mt-3"></p>
                         </form> -->
- 						<?php echo do_shortcode('[contact-form-7 id="0f4d771" title="Contact US"]'); ?>
+ 						<?php echo do_shortcode('[contact-form-7 id="cb86f89" title="Contact form 1"]'); ?>
 						
 						
                     </div>

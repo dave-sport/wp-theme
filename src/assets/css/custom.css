@@ -9,7 +9,7 @@
 }
 
 .section-category {
-  padding: 20px 0px;
+  padding: 50px 0px;
 }
 
 /* Configurable menu link color */
@@ -428,4 +428,35 @@ a svg {
   .hero-slider__title {
     font-size: 32px;
   }
+}
+/* arrow slider  */
+.hero-slider__dot.active {
+  background: #fff;
+}
+
+.hero-slider__prev,
+.hero-slider__next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: var(--theme-color);
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.hero-slider__prev {
+  left: 10px;
+}
+
+.hero-slider__next {
+  right: 10px;
+}
+
+.hero-slider__prev svg,
+.hero-slider__next svg {
+  width: 20px;
+  height: 20px;
+  fill: #fff;
 }
