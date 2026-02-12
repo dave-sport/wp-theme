@@ -1520,8 +1520,8 @@ textarea.is-invalid {
   right: -30px;
 }
 
-.th-btn:hover .fa-arrow-up-right,
-.th-btn.active .fa-arrow-up-right {
+.th-btn:hover svg,
+.th-btn.active svg {
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
@@ -10075,7 +10075,7 @@ a.category:hover img.category_icon_hover {
   margin-bottom: -0.5em;
 }
 
-.author_tag:hover a i.fa-user {
+.author_tag:hover a svg {
   color: #fff117;
 }
 
