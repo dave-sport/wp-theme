@@ -62,5 +62,8 @@
     "newsletter": true,
     "contact_form": true
   },
-  "about_text": "All the news from Anfield. Read Liverpool F.C."
+  "about_text": "All the news from Anfield. Read Liverpool F.C.",
+  "meta": {
+    "og_image": "assets/img/og-image.png"
+  }
 }

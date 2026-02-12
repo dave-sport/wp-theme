@@ -77,5 +77,8 @@
     "newsletter": true,
     "contact_form": true
   },
-  "about_text": "All the news from Villa Park. Read Aston Villa F.C."
+  "about_text": "All the news from Villa Park. Read Aston Villa F.C.",
+  "meta": {
+    "og_image": "assets/img/og-image.png"
+  }
 }

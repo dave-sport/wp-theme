@@ -142,6 +142,47 @@ function moodco_inject_favicons() {
 add_action('wp_head', 'moodco_inject_favicons', 2);
 
 /**
+ * Inject Open Graph meta tags from config.
+ */
+function moodco_inject_og_tags() {
+    $site_name = moodco_config('name', get_bloginfo('name'));
+    $description = moodco_config('description', get_bloginfo('description'));
+    $og_image = moodco_config('meta.og_image');
+    $theme_uri = get_template_directory_uri();
+
+    // Use post-specific data on singular pages
+    if (is_singular()) {
+        $title = get_the_title();
+        $url = get_permalink();
+        if (has_post_thumbnail()) {
+            $og_image_url = get_the_post_thumbnail_url(null, 'large');
+        } elseif ($og_image) {
+            $og_image_url = $theme_uri . '/' . $og_image;
+        }
+        $desc = has_excerpt() ? get_the_excerpt() : $description;
+    } else {
+        $title = $site_name;
+        $url = home_url('/');
+        $og_image_url = $og_image ? $theme_uri . '/' . $og_image : '';
+        $desc = $description;
+    }
+
+    echo '<meta property="og:title" content="' . esc_attr($title) . '">' . "\n";
+    echo '<meta property="og:description" content="' . esc_attr($desc) . '">' . "\n";
+    echo '<meta property="og:url" content="' . esc_url($url) . '">' . "\n";
+    echo '<meta property="og:site_name" content="' . esc_attr($site_name) . '">' . "\n";
+    echo '<meta property="og:type" content="website">' . "\n";
+    if ($og_image_url) {
+        echo '<meta property="og:image" content="' . esc_url($og_image_url) . '">' . "\n";
+        echo '<meta name="twitter:card" content="summary_large_image">' . "\n";
+        echo '<meta name="twitter:image" content="' . esc_url($og_image_url) . '">' . "\n";
+    }
+    echo '<meta name="twitter:title" content="' . esc_attr($title) . '">' . "\n";
+    echo '<meta name="twitter:description" content="' . esc_attr($desc) . '">' . "\n";
+}
+add_action('wp_head', 'moodco_inject_og_tags', 5);
+
+/**
  * Inject analytics from config.
  */
 function moodco_inject_analytics() {
